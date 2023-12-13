@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Filter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <img id="originalImage" src="images/lena.bmp" alt="Original Lena">
+        </div>
+        <div id="right">
+            <img id="modifiedImage" alt="Modified Image">
+        </div>
+    </div>
+    <div id="controls">
+        <label for="filterSelect">Select Filter:</label>
+        <select id="filterSelect"></select>
+        <div id="parameterAdjustments"></div>
+        <button id="changeImageBtn">Change Image</button>
+        <button id="toggleLookingGlassBtn">Toggle Looking Glass</button>
+        <label></label>
+        <button id="randomizePaletteBtn">Randomize Palette</button>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
